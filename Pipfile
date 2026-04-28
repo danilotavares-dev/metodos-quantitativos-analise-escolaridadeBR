@@ -4,16 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
-ipykernel = "*"
 openpyxl = "*"
-seaborn = "*"
-matplotlib = "*"
-plotly = "*"
 requests = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
 nbformat = "*"
+ipykernel = "*"
+plotly = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.13"
+python_version = "3.12"
